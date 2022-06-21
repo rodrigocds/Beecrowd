@@ -17,6 +17,3 @@ console.log(`CIRCULO: ${cir.toFixed(3)}`)
 console.log(`TRAPEZIO: ${tra.toFixed(3)}`)
 console.log(`QUADRADO: ${qua.toFixed(3)}`)
 console.log(`RETANGULO: ${ret.toFixed(3)}`)
-
-//3.0 4.0 5.2
-//12.7 10.4 15.2

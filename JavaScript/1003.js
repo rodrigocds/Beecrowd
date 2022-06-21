@@ -1,12 +1,8 @@
 var input = require('fs').readFileSync('stdin.txt', 'utf8');
 var lines = input.split('\n');
 
-var a = parseInt(lines.shift());
-var b = parseInt(lines.shift());
-var res = a + b;
+var a = parseInt(lines.shift())
+var b = parseInt(lines.shift())
+var res = a + b
 
-console.log(`SOMA = ${res}`);
-
-//30 10
-//-30 10
-//0 0
+console.log(`SOMA = ${res}`)

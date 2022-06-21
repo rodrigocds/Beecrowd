@@ -1,11 +1,4 @@
 import java.io.IOException;
-
-/**
- * IMPORTANT: 
- *      O nome da classe deve ser "Main" para que a sua solução execute
- *      Class name must be "Main" for your solution to execute
- *      El nombre de la clase debe ser "Main" para que su solución ejecutar
- */
 public class b1010 {
 
     public static void main(String[] args) throws IOException {
@@ -24,7 +17,3 @@ public class b1010 {
     }
 
 }
-
-//12 1 5.30 16 2 5.10
-//13 2 15.30 161 4 5.20
-// 1 1 15.10 2 1 15.10

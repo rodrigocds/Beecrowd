@@ -3,16 +3,16 @@ import java.util.Scanner;
 
 public class b1022 {
     public static void simp(int n, int d) {
-        if(n > d) {
-            for(int i = n / 2; i > 0; i--) {
-                if(n % i == 0 && d % i == 0) {
+        if (n > d) {
+            for (int i = n / 2; i > 0; i--) {
+                if (n % i == 0 && d % i == 0) {
                     System.out.println(n / i + "/" + d / i);
                     break;
                 }
             }
         } else if (n < d) {
-            for(int i = d / 2; i > 0; i--) {
-                if(n % i == 0 && d % i == 0) {
+            for (int i = d / 2; i > 0; i--) {
+                if (n % i == 0 && d % i == 0) {
                     System.out.println(n / i + "/" + d / i);
                     break;
                 }
@@ -53,5 +53,3 @@ public class b1022 {
         scan.close();
     }
 }
-
-//4 1 / 2 + 3 / 4 1 / 2 - 3 / 4 2 / 3 * 6 / 6 1 / 2 / 3 / 4

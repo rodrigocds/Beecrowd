@@ -1,12 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * IMPORTANT:
- * O nome da classe deve ser "Main" para que a sua solução execute
- * Class name must be "Main" for your solution to execute
- * El nombre de la clase debe ser "Main" para que su solución ejecutar
- */
 public class b1045 {
 
     public static void main(String[] args) throws IOException {
@@ -43,9 +37,3 @@ public class b1045 {
     }
 
 }
-
-//7.0 5.0 7.0
-//6.0 6.0 10.0
-//6.0 6.0 6.0
-//5.0 7.0 2.0
-//6.0 8.0 10.0

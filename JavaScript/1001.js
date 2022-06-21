@@ -6,7 +6,3 @@ var y = parseInt(valor.shift())
 var res = x + y
 
 console.log("X = " + res)
-
-//10 9
-//-10 4
-//15 -7

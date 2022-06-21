@@ -14,6 +14,3 @@ if (maiorAB > c) {
 } else {
     console.log(`${c} eh o maior`)
 }
-
-//7 14 106
-//217 14 6

@@ -5,7 +5,7 @@ public class b1018 {
 
     public static void main(String[] args) throws IOException {
         Scanner scan = new Scanner(System.in);
-        int valor = scan.nextInt();   
+        int valor = scan.nextInt();
         System.out.println(valor);
         System.out.println((valor / 100) + " nota(s) de R$ 100,00");
         valor %= 100;
@@ -25,7 +25,3 @@ public class b1018 {
     }
 
 }
-
-//576
-//11257
-//503

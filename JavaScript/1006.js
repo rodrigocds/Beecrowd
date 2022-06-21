@@ -8,7 +8,3 @@ var c = parseFloat(lines.shift())
 var media = ((a * 2) + (b * 3) + (c * 5)) / 10
 
 console.log(`MEDIA = ${media.toFixed(1)}`)
-
-//5.0 6.0 7.0
-//5.0 10.0 10.0
-//10.0 10.0 5.0

@@ -1,12 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-/**
- * IMPORTANT: 
- *      O nome da classe deve ser "Main" para que a sua solução execute
- *      Class name must be "Main" for your solution to execute
- *      El nombre de la clase debe ser "Main" para que su solución ejecutar
- */
 public class b1012 {
 
     public static void main(String[] args) throws IOException {
@@ -14,10 +8,10 @@ public class b1012 {
         double A = scan.nextDouble();
         double B = scan.nextDouble();
         double C = scan.nextDouble();
-        double trir = (A*C) / 2;
-        double pi =  3.14159;
+        double trir = (A * C) / 2;
+        double pi = 3.14159;
         double circr = pi * Math.pow(C, 2);
-        double trap = ((A+B) * C) / 2;
+        double trap = ((A + B) * C) / 2;
         double quad = Math.pow(B, 2);
         double ret = A * B;
         System.out.printf("TRIANGULO: %.3f\n", trir);
@@ -29,6 +23,3 @@ public class b1012 {
     }
 
 }
-
-//3.0 4.0 5.2
-//12.7 10.4 15.2

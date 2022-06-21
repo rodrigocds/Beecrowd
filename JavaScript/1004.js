@@ -6,7 +6,3 @@ var y = parseInt(lines.shift())
 var PROD = x * y
 
 console.log(`PROD = ${PROD}`)
-
-//3 9
-//-30 10
-//0 9

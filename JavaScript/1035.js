@@ -13,6 +13,3 @@ if ((B > C) && (D > A) && (C + D > A + B) && (C > 0 && D > 0) && (A % 2 == 0)) {
 } else {
     console.log('Valores nao aceitos');
 }
-
-//5 6 7 8
-//2 3 2 6

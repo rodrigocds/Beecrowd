@@ -15,7 +15,3 @@ var preco2 = parseFloat(peca2[2])
 var totPreco = ((num1 * preco1) + (num2 * preco2))
 
 console.log(`VALOR A PAGAR: R$ ${totPreco.toFixed(2)}`)
-
-//12 1 5.30 16 2 5.10
-//13 2 15.30 161 4 5.20
-// 1 1 15.10 2 1 15.10

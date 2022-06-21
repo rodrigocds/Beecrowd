@@ -13,12 +13,12 @@ public class b1025 {
             if (qtdmarm == 0 && qtdtent == 0) {
                 break;
             }
-            int marm [] = new int [qtdmarm];
+            int marm[] = new int[qtdmarm];
             for (int i = 0; i < qtdmarm; i++) {
                 marm[i] = scan.nextInt();
             }
             Arrays.sort(marm);
-            int tent [] = new int [qtdtent];
+            int tent[] = new int[qtdtent];
             for (int i = 0; i < qtdtent; i++) {
                 tent[i] = scan.nextInt();
             }
@@ -40,5 +40,3 @@ public class b1025 {
         scan.close();
     }
 }
-
-//4 1 2 3 5 1 5 5 2 1 3 3 3 1 2 3 0 0
