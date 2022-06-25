@@ -8,7 +8,7 @@ public class b1004 {
         X = scan.nextInt();
         Y = scan.nextInt();
         PROD = X * Y;
-        System.out.println("PROD = "+ PROD);
+        System.out.println("PROD = " + PROD);
         scan.close();
     }
 
